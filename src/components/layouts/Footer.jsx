@@ -156,7 +156,7 @@ export default function Footer() {
                                     </li>
                                     <li>
                                         <i className="fa fa-location-arrow mr-2 text-primary" aria-hidden="true"></i>
-                                        <a className="text-gray-500 hover:text-white" href="https://www.google.com/maps/place/%C4%90.+23+Th%C3%A1ng+10,+Nha+Trang,+Kh%C3%A1nh+H%C3%B2a,+Vietnam/@12.2571623,109.1442694,17z/data=!3m1!4b1!4m5!3m4!1s0x31705d71481fa019:0x841cb8321ae849ec!8m2!3d12.2571571!4d109.1464581" target={"_blank"}>Đường 23/10, Nha Trang, Khánh Hòa</a>
+                                        <a className="text-gray-500 hover:text-white" href="https://www.google.com/maps/place/%C4%90.+23+Th%C3%A1ng+10,+Nha+Trang,+Kh%C3%A1nh+H%C3%B2a,+Vietnam/@12.2571623,109.1442694,17z/data=!3m1!4b1!4m5!3m4!1s0x31705d71481fa019:0x841cb8321ae849ec!8m2!3d12.2571571!4d109.1464581" target={"_blank"} rel="noreferrer">Đường 23/10, Nha Trang, Khánh Hòa</a>
                                     </li>
                                 </ul>
                             </div>

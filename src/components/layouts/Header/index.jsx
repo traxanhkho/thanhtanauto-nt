@@ -1,4 +1,3 @@
-
 import { Disclosure } from '@headlessui/react'
 import { MagnifyingGlassIcon } from '@heroicons/react/20/solid'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
@@ -66,6 +65,7 @@ export default function Header() {
                       navigations.map(item => (
                         <Link
                           href={item.href || "/"}
+                          key={item.label}
                           className={`rounded-md px-3 py-2 text-sm font-medium first-letter:uppercase hover:bg-c-black-2 hover:text-white ${router.pathname.includes(item.href) ? "bg-c-black-2 text-white" : "text-gray-300"} ${item.href == '/shoppingCart' ? "hidden" : ""}`}
                         >
                           {item.label}
